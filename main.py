@@ -1,10 +1,13 @@
 import arthmatic
-import geometry as ge
+import geometry
 
 
 print("hello Apurva")
-arthmatic.add(10,5)
-arthmatic.sub(10,5)
+a = int(input("Enter no : "))
+b = int(input("Enter no : "))
 
-ge.area(10,2)
-ge.peri(10,2)
+arthmatic.add(a,b)
+arthmatic.sub(a,b)
+
+geometry.area(a,b)
+geometry.peri(a,b)
